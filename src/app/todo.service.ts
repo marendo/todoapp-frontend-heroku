@@ -5,7 +5,7 @@ import 'rxjs/add/operator/toPromise';
 
 @Injectable()
 export class TodoService {
-  private baseUrl = 'http://localhost:8080';
+  private baseUrl = 'https://todoapp-services.herokuapp.com';
 
   constructor(private http: Http) { }
 
